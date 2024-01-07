@@ -13,8 +13,7 @@ d) Bekleyenler<br>
 e) Engellenenler<br>
 5) Direkt mesajlaşma template'ini hazırla<br>
 6) Ayarlar kısmını hazırla<br>
-a)-<br>
-...<br>
+...
 
 7)En sol tarafı hazırla<br>
 Not: Sunucu ekle tuşunu da hazırla<br>

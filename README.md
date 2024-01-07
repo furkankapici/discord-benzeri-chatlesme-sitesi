@@ -16,11 +16,11 @@ e) Engellenenler<br>
 ...
 
 7)En sol tarafı hazırla<br>
-Not: Sunucu ekle tuşunu da hazırla<br>
+  Not: Sunucu ekle tuşunu da hazırla<br>
 <br>
 8)Sunucu template'i hazırla<br>
-a) Kategori kısımlarını hazırla<br>
-b) Yazışma Kanal tasarımını hazırla<br>
+  a) Kategori kısımlarını hazırla<br>
+  b) Yazışma Kanal tasarımını hazırla<br>
 
 Notlar:<br>
 - Kanallardan biri okunmamış olsun<br>

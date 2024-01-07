@@ -17,12 +17,15 @@ a)<br>
 ...<br>
 7)En sol tarafı hazırla<br>
 Not: Sunucu ekle tuşunu da hazırla<br>
+
 8)Sunucu template'i hazırla<br>
 a) Kategori kısımlarını hazırla<br>
 b) Yazışma Kanal tasarımını hazırla<br>
+
 Notlar:<br>
 - Kanallardan biri okunmamış olsun<br>
 - Kanallardan biri okunmuş olsun<br>
 - Biri etiketli olsun<br>
+
 9) Keşfet tasarımını hazırla<br>
   Not: Bu kısımda kategoriler ve bu kategorileri kendine edinmiş sunucular da olabilsin.<br>

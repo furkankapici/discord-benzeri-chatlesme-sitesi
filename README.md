@@ -2,7 +2,7 @@
 
 Yapılacaklar listesi<br>
 Tasarım kısmı<br>
-1) Arkadaş Ekle tuşunu kaldır yerine sohbet arama kısmını hazırla<br>
+1) Arkadaş Ekle tuşunu kaldır yerine sohbet arama kısmını hazırla +<br>
 2) Hakkında kısmını hazırla<br>
 3) Kullancılar için açılır pencereleri hazırla<br>
 4) Arkadaşlar Ekranını hazırla<br>

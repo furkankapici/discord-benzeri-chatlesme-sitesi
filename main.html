@@ -40,7 +40,7 @@
       background-color: #f1f1f100;
     }
   </style>
-  <title>Ana Sayfa - ChatAlpha</title>
+  <title>Hoşgeldiniz</title>
 </head>
 <body class="bg-gray-600 text-white h-screen flex">
 
@@ -51,72 +51,63 @@
   </div>
 
   <!-- Second Left Bar (Much Bigger) -->
-  <div class="bg-gray-700 w-64 flex flex-col items-left text-sm relative">
+   <div class="bg-gray-700 w-64 flex flex-col items-left text-sm relative">
+
+    <!-- Search Bar -->
+    <div style="position: relative; height: 50px;" class="text-lg text-gray-300 py-2 px-4 w-full h-full focus:outline-none hover:bg-white hover:bg-opacity-30 transition duration-300 rounded-md">
+      <input style="position: relative; height: 90%; top: 5%; width: 100%; border: none; padding-left: 5px; padding-right: 5px; outline: none;" type="text" placeholder="Bir DM arayın..." class="text-gray-300 rounded-md bg-gray-800 text-left">
+    </div>
+    
+    
     <!-- Friends Section -->
     <div style="position: relative;height: 50px;">
-      <button class="text-lg text-gray-300 py-2 px-4 w-full h-full focus:outline-none hover:bg-white hover:bg-opacity-30 transition duration-300 text-left mb-1">
+      <button class="text-lg text-gray-300 py-2 px-4 w-full h-full focus:outline-none hover:bg-white hover:bg-opacity-30 transition duration-300 text-left rounded-md">
         <a data-feather="users" class="inline-block align-middle mr-2 w-5 h-5 "></a> Arkadaşlar
-      </button>
-    </div>
-
-    <!-- Add Friends Section -->
-    <div style="position: relative;height: 50px;">
-      <button class="text-lg text-gray-300 py-2 px-4 w-full h-full focus:outline-none hover:bg-white hover:bg-opacity-30 transition duration-300 text-left mb-1">
-        <a data-feather="user-plus" class="inline-block align-middle mr-2 w-5 h-5"></a> Arkadaş Ekle
       </button>
     </div>
 
     <!-- About Section -->
     <div style="position: relative;height: 50px;">
-      <button class="text-lg text-gray-300 py-2 px-4 w-full h-full focus:outline-none hover:bg-white hover:bg-opacity-30 transition duration-300 text-left mb-1">
+      <button class="text-lg text-gray-300 py-2 px-4 w-full h-full focus:outline-none hover:bg-white hover:bg-opacity-30 transition duration-300 text-left rounded-md">
         <a data-feather="info" class="inline-block align-middle mr-2 w-5 h-5 text-gray-300"></a> Hakkında
       </button>
     </div>
 
     <!-- DMs Section (List) -->
     <div style="margin-top: 12px; height: 17px;" class="mt-2 flex justify-between items-center dm-list">
-      <h2 class="text-base font-semibold ml-2 text-gray-300">Direkt Mesajlar</h2>
+      <h2 class="text-base font-semibold ml-2 text-gray-300">Doğrudan Mesajlar</h2>
       <a data-feather="plus" class="inline-block align-middle mr-2 w-5 h-5 hover:text-gray-400 transition duration-300"></a>
     </div>
     <div style=" max-height: calc(100vh - 229px); overflow-y: auto;"> <!-- Adjusted margin here -->
       <ul>
-        <li class="group relative flex items-center hover:bg-gray-500 transition duration-300 p-2">
+        <li class="group relative flex items-center hover:bg-gray-500 transition duration-300 p-2 rounded-md">
           <div class="relative">
             <img src="https://via.placeholder.com/30" alt="User Avatar" class="rounded-full h-8 w-8 mr-3">
-            <span class="bg-green-500 h-3.5 w-3.5 rounded-full absolute bottom-0 right-0 border-2 border-gray-700 group-hover:border-gray-500 transition duration-300"></span>        
+            <span class="bg-green-500 h-3.5 w-3.5 rounded-full absolute bottom-0 right-0 border-2 border-gray-700 group-hover:border-gray-500 transition duration-300"></span>
           </div>
           <button class="text-base w-full h-full focus:outline-none text-left ml-4">
-            Ali
+            Kullanıcı 1
           </button>
-        </li>
-        <li class="group relative flex items-center hover:bg-gray-500 transition duration-300 p-2">
+        </li>             
+        <li class="group relative flex items-center hover:bg-gray-500 transition duration-300 p-2 rounded-md">
           <div class="relative">
             <img src="https://via.placeholder.com/30" alt="User Avatar" class="rounded-full h-8 w-8 mr-3">
             <span class="bg-red-400 h-3.5 w-3.5 rounded-full absolute bottom-0 right-0 border-2 border-gray-700 group-hover:border-gray-500 transition duration-300"></span>        
           </div>
           <button class="text-base w-full h-full focus:outline-none text-left ml-4">
-            Veli
+            Kullanıcı 2
           </button>
         </li>
-        <li class="group relative flex items-center hover:bg-gray-500 transition duration-300 p-2">
+        <li class="group relative flex items-center hover:bg-gray-500 transition duration-300 p-2 rounded-md">
           <div class="relative">
             <img src="https://via.placeholder.com/30" alt="User Avatar" class="rounded-full h-8 w-8 mr-3">
             <span class="bg-blue-100 h-3.5 w-3.5 rounded-full absolute bottom-0 right-0 border-2 border-gray-700 group-hover:border-gray-500 transition duration-300"></span>        
           </div>
           <button class="text-base w-full h-full focus:outline-none text-left ml-4">
-            Deli
+            Kullanıcı 3
           </button>
         </li>
-        <li class="group relative flex items-center hover:bg-gray-500 transition duration-300 p-2">
-          <div class="relative">
-            <img src="https://via.placeholder.com/30" alt="User Avatar" class="rounded-full h-8 w-8 mr-3">
-            <span class="bg-blue-100 h-3.5 w-3.5 rounded-full absolute bottom-0 right-0 border-2 border-gray-700 group-hover:border-gray-500 transition duration-300"></span>        
-          </div>
-          <button class="text-base w-full h-full focus:outline-none text-left ml-4">
-            Oyun Portal
-          </button>
-        </li>
-        <li class="group relative flex items-center hover:bg-gray-500 transition duration-300 p-2">
+        <li class="group relative flex items-center hover:bg-gray-500 transition duration-300 p-2 rounded-md">
           <div class="relative">
             <img src="https://via.placeholder.com/30" alt="User Avatar" class="rounded-full h-8 w-8 mr-3">
             <span class="bg-blue-100 h-3.5 w-3.5 rounded-full absolute bottom-0 right-0 border-2 border-gray-700 group-hover:border-gray-500 transition duration-300"></span>        
@@ -125,7 +116,7 @@
             Oyun Portal
           </button>
         </li>
-        <li class="group relative flex items-center hover:bg-gray-500 transition duration-300 p-2">
+        <li class="group relative flex items-center hover:bg-gray-500 transition duration-300 p-2 rounded-md">
           <div class="relative">
             <img src="https://via.placeholder.com/30" alt="User Avatar" class="rounded-full h-8 w-8 mr-3">
             <span class="bg-blue-100 h-3.5 w-3.5 rounded-full absolute bottom-0 right-0 border-2 border-gray-700 group-hover:border-gray-500 transition duration-300"></span>        
@@ -134,7 +125,7 @@
             Oyun Portal
           </button>
         </li>
-        <li class="group relative flex items-center hover:bg-gray-500 transition duration-300 p-2">
+        <li class="group relative flex items-center hover:bg-gray-500 transition duration-300 p-2 rounded-md">
           <div class="relative">
             <img src="https://via.placeholder.com/30" alt="User Avatar" class="rounded-full h-8 w-8 mr-3">
             <span class="bg-blue-100 h-3.5 w-3.5 rounded-full absolute bottom-0 right-0 border-2 border-gray-700 group-hover:border-gray-500 transition duration-300"></span>        
@@ -143,7 +134,7 @@
             Oyun Portal
           </button>
         </li>
-        <li class="group relative flex items-center hover:bg-gray-500 transition duration-300 p-2">
+        <li class="group relative flex items-center hover:bg-gray-500 transition duration-300 p-2 rounded-md">
           <div class="relative">
             <img src="https://via.placeholder.com/30" alt="User Avatar" class="rounded-full h-8 w-8 mr-3">
             <span class="bg-blue-100 h-3.5 w-3.5 rounded-full absolute bottom-0 right-0 border-2 border-gray-700 group-hover:border-gray-500 transition duration-300"></span>        
@@ -152,7 +143,7 @@
             Oyun Portal
           </button>
         </li>
-        <li class="group relative flex items-center hover:bg-gray-500 transition duration-300 p-2">
+        <li class="group relative flex items-center hover:bg-gray-500 transition duration-300 p-2 rounded-md">
           <div class="relative">
             <img src="https://via.placeholder.com/30" alt="User Avatar" class="rounded-full h-8 w-8 mr-3">
             <span class="bg-blue-100 h-3.5 w-3.5 rounded-full absolute bottom-0 right-0 border-2 border-gray-700 group-hover:border-gray-500 transition duration-300"></span>        
@@ -161,7 +152,7 @@
             Oyun Portal
           </button>
         </li>
-        <li class="group relative flex items-center hover:bg-gray-500 transition duration-300 p-2">
+        <li class="group relative flex items-center hover:bg-gray-500 transition duration-300 p-2 rounded-md">
           <div class="relative">
             <img src="https://via.placeholder.com/30" alt="User Avatar" class="rounded-full h-8 w-8 mr-3">
             <span class="bg-blue-100 h-3.5 w-3.5 rounded-full absolute bottom-0 right-0 border-2 border-gray-700 group-hover:border-gray-500 transition duration-300"></span>        
@@ -170,7 +161,7 @@
             Oyun Portal
           </button>
         </li>
-        <li class="group relative flex items-center hover:bg-gray-500 transition duration-300 p-2">
+        <li class="group relative flex items-center hover:bg-gray-500 transition duration-300 p-2 rounded-md">
           <div class="relative">
             <img src="https://via.placeholder.com/30" alt="User Avatar" class="rounded-full h-8 w-8 mr-3">
             <span class="bg-blue-100 h-3.5 w-3.5 rounded-full absolute bottom-0 right-0 border-2 border-gray-700 group-hover:border-gray-500 transition duration-300"></span>        
@@ -179,7 +170,7 @@
             Oyun Portal
           </button>
         </li>
-        <li class="group relative flex items-center hover:bg-gray-500 transition duration-300 p-2">
+        <li class="group relative flex items-center hover:bg-gray-500 transition duration-300 p-2 rounded-md">
           <div class="relative">
             <img src="https://via.placeholder.com/30" alt="User Avatar" class="rounded-full h-8 w-8 mr-3">
             <span class="bg-blue-100 h-3.5 w-3.5 rounded-full absolute bottom-0 right-0 border-2 border-gray-700 group-hover:border-gray-500 transition duration-300"></span>        
@@ -188,7 +179,7 @@
             Oyun Portal
           </button>
         </li>
-        <li class="group relative flex items-center hover:bg-gray-500 transition duration-300 p-2">
+        <li class="group relative flex items-center hover:bg-gray-500 transition duration-300 p-2 rounded-md">
           <div class="relative">
             <img src="https://via.placeholder.com/30" alt="User Avatar" class="rounded-full h-8 w-8 mr-3">
             <span class="bg-blue-100 h-3.5 w-3.5 rounded-full absolute bottom-0 right-0 border-2 border-gray-700 group-hover:border-gray-500 transition duration-300"></span>        
@@ -197,7 +188,7 @@
             Oyun Portal
           </button>
         </li>
-        <li class="group relative flex items-center hover:bg-gray-500 transition duration-300 p-2">
+        <li class="group relative flex items-center hover:bg-gray-500 transition duration-300 p-2 rounded-md">
           <div class="relative">
             <img src="https://via.placeholder.com/30" alt="User Avatar" class="rounded-full h-8 w-8 mr-3">
             <span class="bg-blue-100 h-3.5 w-3.5 rounded-full absolute bottom-0 right-0 border-2 border-gray-700 group-hover:border-gray-500 transition duration-300"></span>        
@@ -206,7 +197,7 @@
             Oyun Portal
           </button>
         </li>
-        <li class="group relative flex items-center hover:bg-gray-500 transition duration-300 p-2">
+        <li class="group relative flex items-center hover:bg-gray-500 transition duration-300 p-2 rounded-md">
           <div class="relative">
             <img src="https://via.placeholder.com/30" alt="User Avatar" class="rounded-full h-8 w-8 mr-3">
             <span class="bg-blue-100 h-3.5 w-3.5 rounded-full absolute bottom-0 right-0 border-2 border-gray-700 group-hover:border-gray-500 transition duration-300"></span>        
@@ -215,7 +206,7 @@
             Oyun Portal
           </button>
         </li>
-        <li class="group relative flex items-center hover:bg-gray-500 transition duration-300 p-2">
+        <li class="group relative flex items-center hover:bg-gray-500 transition duration-300 p-2 rounded-md">
           <div class="relative">
             <img src="https://via.placeholder.com/30" alt="User Avatar" class="rounded-full h-8 w-8 mr-3">
             <span class="bg-blue-100 h-3.5 w-3.5 rounded-full absolute bottom-0 right-0 border-2 border-gray-700 group-hover:border-gray-500 transition duration-300"></span>        
@@ -224,7 +215,34 @@
             Oyun Portal
           </button>
         </li>
-        <li class="group relative flex items-center hover:bg-gray-500 transition duration-300 p-2">
+        <li class="group relative flex items-center hover:bg-gray-500 transition duration-300 p-2 rounded-md">
+          <div class="relative">
+            <img src="https://via.placeholder.com/30" alt="User Avatar" class="rounded-full h-8 w-8 mr-3">
+            <span class="bg-blue-100 h-3.5 w-3.5 rounded-full absolute bottom-0 right-0 border-2 border-gray-700 group-hover:border-gray-500 transition duration-300"></span>        
+          </div>
+          <button class="text-base w-full h-full focus:outline-none text-left ml-4">
+            Oyun Portal
+          </button>
+        </li>
+        <li class="group relative flex items-center hover:bg-gray-500 transition duration-300 p-2 rounded-md">
+          <div class="relative">
+            <img src="https://via.placeholder.com/30" alt="User Avatar" class="rounded-full h-8 w-8 mr-3">
+            <span class="bg-blue-100 h-3.5 w-3.5 rounded-full absolute bottom-0 right-0 border-2 border-gray-700 group-hover:border-gray-500 transition duration-300"></span>        
+          </div>
+          <button class="text-base w-full h-full focus:outline-none text-left ml-4">
+            Oyun Portal
+          </button>
+        </li>
+        <li class="group relative flex items-center hover:bg-gray-500 transition duration-300 p-2 rounded-md">
+          <div class="relative">
+            <img src="https://via.placeholder.com/30" alt="User Avatar" class="rounded-full h-8 w-8 mr-3">
+            <span class="bg-blue-100 h-3.5 w-3.5 rounded-full absolute bottom-0 right-0 border-2 border-gray-700 group-hover:border-gray-500 transition duration-300"></span>        
+          </div>
+          <button class="text-base w-full h-full focus:outline-none text-left ml-4">
+            Oyun Portal
+          </button>
+        </li>
+        <li class="group relative flex items-center hover:bg-gray-500 transition duration-300 p-2 rounded-md">
           <div class="relative">
             <img src="https://via.placeholder.com/30" alt="User Avatar" class="rounded-full h-8 w-8 mr-3">
             <span class="bg-blue-100 h-3.5 w-3.5 rounded-full absolute bottom-0 right-0 border-2 border-gray-700 group-hover:border-gray-500 transition duration-300"></span>        
@@ -243,19 +261,19 @@
           <span class="bg-green-500 h-3.5 w-3.5 rounded-full absolute bottom-0 right-1 border-2 border-gray-800 transition duration-300"></span>
         </div>
         <div class="flex flex-col">
-          <a style="width: 104px; text-overflow: ellipsis; white-space: nowrap;" class="text-base font-bold w-104 h-full focus:outline-none text-left overflow-hidden">
-            Test Userdfsdffsdfsd
+          <a style="width: 97px; text-overflow: ellipsis; white-space: nowrap;" class="text-base font-bold w-104 h-full focus:outline-none text-left overflow-hidden">
+            Deneme123
           </a>
-          <span class="text-xs text-gray-400">Online</span>
+          <span class="text-xs text-gray-400">Çevrim içi</span>
         </div>
         <div style="position: absolute; right: 10px;" class="flex items-center mr-2 text-gray-300">
-          <button class="text-lg focus:outline-none mr-2">
+          <button class="hover:bg-white hover:bg-opacity-30 hover:h-12 transition duration-300 rounded-md text-lg focus:outline-none mr-2">
             <a data-feather="mic"></a>
           </button>
-          <button class="text-lg focus:outline-none mr-2 text-gray-300">
+          <button class="hover:bg-white hover:bg-opacity-30 hover:h-12  transition duration-300 rounded-md text-lg focus:outline-none mr-2">
             <a data-feather="headphones"></a>
           </button>
-          <button class="text-lg focus:outline-none text-gray-300">
+          <button class="hover:bg-white hover:bg-opacity-30 hover:h-12  transition duration-300 rounded-md text-lg focus:outline-none mr-2">
             <a data-feather="settings"></a>
           </button>
         </div>
@@ -268,7 +286,7 @@
   <!-- Main Content Area -->
   <div class="flex-1 p-8">
     <!-- Your main content goes here -->
-    <h1 class="text-3xl font-extrabold mb-4">Welcome to Your Chat App</h1>
+    <h1 class="text-3xl font-extrabold mb-4">Hoşgeldiniz</h1>
     <!-- Add more content as needed -->
   </div>
   <script>

@@ -2,22 +2,19 @@
 
 Yapılacaklar listesi<br>
 Tasarım kısmı<br>
-1) Arkadaş Ekle tuşunu kaldır yerine sohbet arama kısmını hazırla +<br>
-2) Hakkında kısmını hazırla +<br>
-3) Kullancılar için açılır pencereleri hazırla<br>
-4) Arkadaşlar Ekranını hazırla<br>
+1) Sol taraftaki çizgilerin hover efektini hazırla<br>
+2) Dm lere hover yapılınca çarpı tuşu ekle<br>
+3) Açılır açıklama pemncerelerini hazırla<br>
+4) Kullancılar için açılır pencereleri hazırla<br>
+5) Arkadaşlar Ekranını hazırla<br>
 a) Arkadaş ekle<br>
 b) Bütün arkadaşlar<br>
 c) Çevrimiçi olanlar<br>
 d) Bekleyenler<br>
 e) Engellenenler<br>
-5) Direkt mesajlaşma template'ini hazırla<br>
-6) Ayarlar kısmını hazırla<br>
+6) Direkt mesajlaşma template'ini hazırla<br>
+7) Ayarlar kısmını hazırla<br>
 ...
-
-7)En sol tarafı hazırla<br>
-  Not: Sunucu ekle tuşunu da hazırla<br>
-<br>
 8)Sunucu template'i hazırla<br>
   a) Kategori kısımlarını hazırla<br>
   b) Yazışma Kanal tasarımını hazırla<br>
